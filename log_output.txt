@@ -1,0 +1,2304 @@
+Clinet ID: 13 Request : 
+D 2 3
+D 1 2
+D 2 3
+Q 3 3
+Q 1 3
+F
+ Response : 
+0
+-1
+response time  : 16MilliSec
+total = 16-------------------------------
+Clinet ID: 12 Request : 
+Q 3 1
+D 3 1
+A 1 3
+Q 1 3
+A 3 1
+F
+ Response : 
+1
+1
+response time  : 24MilliSec
+total = 24-------------------------------
+Clinet ID: 12 Request : 
+A 3 1
+A 2 1
+A 1 3
+Q 3 2
+Q 3 2
+F
+ Response : 
+-1
+-1
+response time  : 0MilliSec
+total = 24-------------------------------
+Clinet ID: 13 Request : 
+Q 3 1
+A 1 1
+Q 1 2
+D 2 1
+D 2 3
+F
+ Response : 
+1
+-1
+response time  : 15MilliSec
+total = 31-------------------------------
+Clinet ID: 13 Request : 
+Q 3 1
+D 3 1
+D 1 3
+Q 1 3
+A 1 2
+F
+ Response : 
+1
+-1
+response time  : 6MilliSec
+total = 37-------------------------------
+Clinet ID: 12 Request : 
+D 1 3
+A 3 1
+D 1 2
+Q 3 3
+Q 3 3
+F
+ Response : 
+0
+0
+response time  : 5MilliSec
+total = 29-------------------------------
+Clinet ID: 12 Request : 
+A 3 2
+Q 2 1
+Q 3 2
+A 3 2
+D 1 3
+F
+ Response : 
+2
+1
+response time  : 15MilliSec
+total = 15-------------------------------
+Clinet ID: 13 Request : 
+D 3 1
+A 1 1
+Q 2 1
+A 1 3
+Q 2 1
+F
+ Response : 
+2
+2
+response time  : 6MilliSec
+total = 6-------------------------------
+Clinet ID: 12 Request : 
+D 1 1
+A 2 1
+Q 1 3
+A 1 3
+Q 3 3
+F
+ Response : 
+1
+0
+response time  : 6MilliSec
+total = 21-------------------------------
+Clinet ID: 13 Request : 
+A 1 3
+D 3 1
+A 1 3
+Q 1 1
+Q 2 1
+F
+ Response : 
+0
+1
+response time  : 4MilliSec
+total = 10-------------------------------
+Clinet ID: 12 Request : 
+D 2 2
+A 1 2
+Q 3 2
+A 3 2
+Q 2 1
+F
+ Response : 
+1
+1
+response time  : 4MilliSec
+total = 25-------------------------------
+Clinet ID: 13 Request : 
+Q 2 2
+A 1 1
+A 1 1
+A 2 2
+Q 2 3
+F
+ Response : 
+0
+2
+response time  : 4MilliSec
+total = 14-------------------------------
+Clinet ID: 13 Request : 
+D 1 1
+Q 1 1
+D 1 1
+A 1 1
+Q 1 1
+F
+ Response : 
+0
+0
+response time  : 15MilliSec
+total = 15-------------------------------
+Clinet ID: 12 Request : 
+D 1 1
+D 1 1
+Q 1 1
+Q 1 1
+D 1 1
+F
+ Response : 
+0
+0
+response time  : 5MilliSec
+total = 5-------------------------------
+Clinet ID: 13 Request : 
+D 1 1
+D 1 1
+Q 1 1
+Q 1 1
+A 1 1
+F
+ Response : 
+0
+0
+response time  : 3MilliSec
+total = 18-------------------------------
+Clinet ID: 12 Request : 
+D 1 1
+Q 1 1
+Q 1 1
+A 1 1
+A 1 1
+F
+ Response : 
+0
+0
+response time  : 4MilliSec
+total = 9-------------------------------
+Clinet ID: 13 Request : 
+D 1 1
+A 1 1
+D 1 1
+Q 1 1
+Q 1 1
+F
+ Response : 
+0
+0
+response time  : 3MilliSec
+total = 21-------------------------------
+Clinet ID: 12 Request : 
+A 1 1
+Q 1 1
+D 1 1
+D 1 1
+Q 1 1
+F
+ Response : 
+0
+0
+response time  : 4MilliSec
+total = 13-------------------------------
+Clinet ID: 12 Request : 
+Q 1 1
+D 1 1
+D 1 1
+D 1 1
+Q 1 1
+F
+ Response : 
+0
+0
+response time  : 15MilliSec
+total = 15-------------------------------
+Clinet ID: 13 Request : 
+D 1 1
+Q 1 1
+D 1 1
+A 1 1
+Q 1 1
+F
+ Response : 
+0
+0
+response time  : 6MilliSec
+total = 6-------------------------------
+Clinet ID: 13 Request : 
+A 1 1
+A 1 1
+D 1 1
+Q 1 1
+Q 1 1
+F
+ Response : 
+0
+0
+response time  : 5MilliSec
+total = 11-------------------------------
+Clinet ID: 12 Request : 
+A 1 1
+D 1 1
+D 1 1
+Q 1 1
+Q 1 1
+F
+ Response : 
+0
+0
+response time  : 4MilliSec
+total = 19-------------------------------
+Clinet ID: 13 Request : 
+Q 1 1
+Q 1 1
+A 1 1
+D 1 1
+A 1 1
+F
+ Response : 
+0
+0
+response time  : 3MilliSec
+total = 14-------------------------------
+Clinet ID: 12 Request : 
+Q 1 1
+A 1 1
+D 1 1
+A 1 1
+Q 1 1
+F
+ Response : 
+0
+0
+response time  : 4MilliSec
+total = 23-------------------------------
+Clinet ID: 12 Request : 
+D 1 1
+Q 1 1
+A 1 1
+Q 1 1
+D 1 1
+F
+ Response : 
+0
+0
+response time  : 0MilliSec
+total = 0-------------------------------
+Clinet ID: 13 Request : 
+A 1 1
+Q 1 1
+A 1 1
+Q 1 1
+A 1 1
+F
+ Response : 
+0
+0
+response time  : 3MilliSec
+total = 3-------------------------------
+Clinet ID: 13 Request : 
+Q 1 1
+D 1 1
+A 1 1
+Q 1 1
+D 1 1
+F
+ Response : 
+0
+0
+response time  : 3MilliSec
+total = 6-------------------------------
+Clinet ID: 12 Request : 
+D 1 1
+Q 1 1
+A 1 1
+Q 1 1
+A 1 1
+F
+ Response : 
+0
+0
+response time  : 3MilliSec
+total = 3-------------------------------
+Clinet ID: 13 Request : 
+Q 1 1
+D 1 1
+D 1 1
+Q 1 1
+A 1 1
+F
+ Response : 
+0
+0
+response time  : 4MilliSec
+total = 10-------------------------------
+Clinet ID: 12 Request : 
+Q 1 1
+D 1 1
+Q 1 1
+D 1 1
+A 1 1
+F
+ Response : 
+0
+0
+response time  : 5MilliSec
+total = 8-------------------------------
+Clinet ID: 12 Request : 
+Q 2 2
+Q 1 1
+A 2 2
+D 2 2
+D 2 2
+F
+ Response : 
+0
+0
+response time  : 9MilliSec
+total = 9-------------------------------
+Clinet ID: 13 Request : 
+A 1 2
+Q 2 1
+A 2 1
+Q 2 2
+D 2 2
+F
+ Response : 
+1
+0
+response time  : 8MilliSec
+total = 8-------------------------------
+Clinet ID: 13 Request : 
+D 1 1
+Q 1 1
+A 1 1
+A 1 1
+Q 1 2
+F
+ Response : 
+0
+1
+response time  : 3MilliSec
+total = 11-------------------------------
+Clinet ID: 12 Request : 
+Q 2 2
+D 1 2
+A 2 1
+Q 1 1
+A 2 2
+F
+ Response : 
+0
+0
+response time  : 2MilliSec
+total = 11-------------------------------
+Clinet ID: 13 Request : 
+A 1 2
+Q 2 2
+Q 1 1
+A 2 2
+A 1 2
+F
+ Response : 
+0
+0
+response time  : 2MilliSec
+total = 13-------------------------------
+Clinet ID: 12 Request : 
+D 2 2
+A 1 1
+Q 1 2
+D 1 2
+Q 1 1
+F
+ Response : 
+1
+0
+response time  : 0MilliSec
+total = 11-------------------------------
+Clinet ID: 13 Request : 
+D 2 1
+A 1 1
+A 2 1
+Q 1 1
+Q 2 2
+F
+ Response : 
+0
+0
+response time  : 16MilliSec
+total = 16-------------------------------
+Clinet ID: 12 Request : 
+D 2 2
+D 2 2
+Q 1 2
+Q 2 2
+D 1 2
+F
+ Response : 
+2
+0
+response time  : 2MilliSec
+total = 2-------------------------------
+Clinet ID: 13 Request : 
+A 2 1
+A 2 1
+A 1 2
+Q 2 1
+Q 1 1
+F
+ Response : 
+1
+0
+response time  : 3MilliSec
+total = 19-------------------------------
+Clinet ID: 12 Request : 
+A 2 1
+Q 1 2
+D 2 2
+D 1 2
+Q 1 2
+F
+ Response : 
+1
+2
+response time  : 2MilliSec
+total = 4-------------------------------
+Clinet ID: 13 Request : 
+Q 1 2
+A 1 2
+Q 1 2
+A 2 1
+A 1 1
+F
+ Response : 
+2
+1
+response time  : 2MilliSec
+total = 21-------------------------------
+Clinet ID: 12 Request : 
+D 2 1
+Q 2 2
+Q 2 1
+D 1 1
+A 2 2
+F
+ Response : 
+0
+2
+response time  : 0MilliSec
+total = 4-------------------------------
+Clinet ID: 12 Request : 
+D 2 2
+A 2 2
+Q 1 2
+Q 2 2
+A 1 2
+F
+ Response : 
+1
+0
+response time  : 0MilliSec
+total = 0-------------------------------
+Clinet ID: 13 Request : 
+Q 1 2
+D 1 1
+A 2 2
+D 2 2
+Q 1 2
+F
+ Response : 
+1
+1
+response time  : 2MilliSec
+total = 2-------------------------------
+Clinet ID: 13 Request : 
+Q 1 1
+D 2 2
+A 1 2
+Q 1 1
+A 2 1
+F
+ Response : 
+0
+0
+response time  : 3MilliSec
+total = 5-------------------------------
+Clinet ID: 12 Request : 
+A 2 1
+Q 2 2
+Q 2 2
+A 2 1
+D 2 2
+F
+ Response : 
+0
+0
+response time  : 2MilliSec
+total = 2-------------------------------
+Clinet ID: 13 Request : 
+Q 1 1
+A 2 1
+D 2 2
+Q 1 1
+A 2 1
+F
+ Response : 
+0
+0
+response time  : 3MilliSec
+total = 8-------------------------------
+Clinet ID: 12 Request : 
+D 2 1
+D 2 2
+Q 2 2
+A 1 2
+Q 1 2
+F
+ Response : 
+0
+1
+response time  : 0MilliSec
+total = 2-------------------------------
+Clinet ID: 13 Request : 
+Q 3 1
+Q 3 3
+D 3 2
+D 2 2
+D 1 1
+F
+ Response : 
+3
+0
+response time  : 0MilliSec
+total = 0-------------------------------
+Clinet ID: 12 Request : 
+A 1 3
+D 3 3
+Q 3 1
+A 3 2
+Q 1 2
+F
+ Response : 
+-1
+1
+response time  : 3MilliSec
+total = 3-------------------------------
+Clinet ID: 12 Request : 
+D 1 1
+Q 1 3
+D 1 3
+D 3 3
+Q 3 1
+F
+ Response : 
+1
+3
+response time  : 2MilliSec
+total = 5-------------------------------
+Clinet ID: 13 Request : 
+Q 2 1
+D 2 1
+D 3 3
+D 3 1
+Q 3 3
+F
+ Response : 
+2
+0
+response time  : 2MilliSec
+total = 2-------------------------------
+Clinet ID: 12 Request : 
+Q 1 1
+D 1 2
+Q 3 2
+D 2 1
+D 2 2
+F
+ Response : 
+0
+1
+response time  : 0MilliSec
+total = 5-------------------------------
+Clinet ID: 13 Request : 
+Q 2 2
+A 2 3
+A 1 3
+Q 1 2
+A 1 3
+F
+ Response : 
+0
+2
+response time  : 0MilliSec
+total = 2-------------------------------
+Clinet ID: 13 Request : 
+Q 1 2
+D 2 2
+D 3 3
+A 3 3
+Q 3 1
+F
+ Response : 
+2
+3
+response time  : 0MilliSec
+total = 0-------------------------------
+Clinet ID: 12 Request : 
+D 2 2
+Q 3 2
+Q 1 3
+D 3 2
+A 2 3
+F
+ Response : 
+1
+1
+response time  : 0MilliSec
+total = 0-------------------------------
+Clinet ID: 12 Request : 
+A 2 2
+A 2 1
+Q 3 1
+Q 3 3
+D 3 3
+F
+ Response : 
+-1
+0
+response time  : 0MilliSec
+total = 0-------------------------------
+Clinet ID: 12 Request : 
+A 2 3
+D 1 3
+D 1 2
+Q 3 3
+Q 3 1
+F
+ Response : 
+0
+-1
+response time  : 0MilliSec
+total = 0-------------------------------
+Clinet ID: 13 Request : 
+Q 1 3
+Q 1 3
+A 1 2
+A 3 3
+A 1 1
+F
+ Response : 
+-1
+-1
+response time  : 0MilliSec
+total = 0-------------------------------
+Clinet ID: 13 Request : 
+Q 3 1
+A 1 3
+Q 3 3
+A 1 2
+D 2 1
+F
+ Response : 
+-1
+0
+response time  : 0MilliSec
+total = 0-------------------------------
+Clinet ID: 12 Request : 
+Q 2 1
+D 1 2
+A 1 2
+A 2 2
+Q 3 1
+F
+ Response : 
+2
+-1
+response time  : 15MilliSec
+total = 15-------------------------------
+Clinet ID: 13 Request : 
+D 1 2
+D 2 3
+Q 3 1
+A 3 3
+Q 3 3
+F
+ Response : 
+-1
+0
+response time  : 3MilliSec
+total = 3-------------------------------
+Clinet ID: 12 Request : 
+D 3 3
+A 3 1
+Q 1 2
+Q 1 3
+D 1 3
+F
+ Response : 
+-1
+1
+response time  : 2MilliSec
+total = 17-------------------------------
+Clinet ID: 13 Request : 
+D 2 2
+Q 3 3
+Q 3 3
+D 1 3
+D 3 2
+F
+ Response : 
+0
+0
+response time  : 2MilliSec
+total = 5-------------------------------
+Clinet ID: 12 Request : 
+Q 2 2
+Q 2 3
+A 1 3
+D 2 3
+A 3 2
+F
+ Response : 
+0
+-1
+response time  : 2MilliSec
+total = 19-------------------------------
+Clinet ID: 13 Request : 
+Q 3 2
+A 3 3
+D 2 2
+A 3 3
+Q 1 1
+F
+ Response : 
+1
+0
+response time  : 2MilliSec
+total = 7-------------------------------
+Clinet ID: 12 Request : 
+D 1 2
+Q 1 3
+D 3 1
+A 2 2
+Q 1 2
+F
+ Response : 
+1
+2
+response time  : 0MilliSec
+total = 0-------------------------------
+Clinet ID: 13 Request : 
+Q 2 2
+D 2 2
+D 2 3
+Q 2 3
+D 1 1
+F
+ Response : 
+0
+3
+response time  : 3MilliSec
+total = 3-------------------------------
+Clinet ID: 12 Request : 
+A 1 2
+D 3 2
+Q 3 2
+Q 2 2
+D 2 1
+F
+ Response : 
+-1
+0
+response time  : 2MilliSec
+total = 2-------------------------------
+Clinet ID: 13 Request : 
+Q 1 1
+D 2 1
+A 3 3
+Q 2 3
+D 3 3
+F
+ Response : 
+0
+3
+response time  : 3MilliSec
+total = 6-------------------------------
+Clinet ID: 12 Request : 
+D 2 3
+D 2 1
+A 1 1
+Q 3 3
+Q 3 2
+F
+ Response : 
+0
+-1
+response time  : 0MilliSec
+total = 2-------------------------------
+Clinet ID: 13 Request : 
+Q 3 1
+D 2 3
+Q 3 3
+D 2 1
+D 2 1
+F
+ Response : 
+-1
+0
+response time  : 2MilliSec
+total = 8-------------------------------
+Clinet ID: 13 Request : 
+D 2 1
+D 1 1
+D 2 2
+Q 3 3
+Q 2 1
+F
+ Response : 
+0
+2
+response time  : 0MilliSec
+total = 0-------------------------------
+Clinet ID: 12 Request : 
+A 1 1
+A 1 3
+Q 3 2
+Q 1 1
+A 2 1
+F
+ Response : 
+-1
+0
+response time  : 2MilliSec
+total = 2-------------------------------
+Clinet ID: 13 Request : 
+A 2 3
+Q 1 2
+Q 1 3
+D 3 1
+D 1 2
+F
+ Response : 
+1
+1
+response time  : 2MilliSec
+total = 2-------------------------------
+Clinet ID: 12 Request : 
+D 1 1
+A 3 3
+Q 1 3
+A 2 2
+Q 2 1
+F
+ Response : 
+1
+1
+response time  : 2MilliSec
+total = 4-------------------------------
+Clinet ID: 13 Request : 
+Q 1 2
+Q 3 3
+D 3 2
+A 3 1
+D 1 3
+F
+ Response : 
+-1
+0
+response time  : 2MilliSec
+total = 4-------------------------------
+Clinet ID: 12 Request : 
+Q 2 3
+D 1 3
+Q 3 1
+A 1 1
+A 3 3
+F
+ Response : 
+1
+1
+response time  : 0MilliSec
+total = 4-------------------------------
+Clinet ID: 12 Request : 
+A 3 1
+Q 2 1
+Q 2 1
+A 2 1
+D 2 2
+F
+ Response : 
+1
+1
+response time  : 0MilliSec
+total = 0-------------------------------
+Clinet ID: 13 Request : 
+D 3 3
+Q 1 2
+Q 3 2
+A 3 3
+D 1 3
+F
+ Response : 
+-1
+-1
+response time  : 2MilliSec
+total = 2-------------------------------
+Clinet ID: 12 Request : 
+A 1 1
+D 1 2
+Q 1 2
+D 3 2
+Q 2 1
+F
+ Response : 
+-1
+2
+response time  : 0MilliSec
+total = 0-------------------------------
+Clinet ID: 13 Request : 
+Q 2 2
+D 2 1
+D 1 3
+Q 2 2
+A 2 2
+F
+ Response : 
+0
+0
+response time  : 0MilliSec
+total = 2-------------------------------
+Clinet ID: 12 Request : 
+A 2 2
+A 2 2
+D 3 1
+Q 3 1
+Q 2 2
+F
+ Response : 
+-1
+0
+response time  : 1MilliSec
+total = 1-------------------------------
+Clinet ID: 13 Request : 
+Q 3 2
+D 1 3
+D 1 2
+Q 1 1
+A 1 3
+F
+ Response : 
+-1
+0
+response time  : 2MilliSec
+total = 4-------------------------------
+Clinet ID: 12 Request : 
+A 2 3
+Q 1 2
+A 3 2
+D 2 1
+Q 2 1
+F
+ Response : 
+-1
+2
+response time  : 15MilliSec
+total = 15-------------------------------
+Clinet ID: 13 Request : 
+A 3 2
+Q 1 2
+Q 3 2
+D 1 1
+D 2 3
+F
+ Response : 
+2
+1
+response time  : 3MilliSec
+total = 3-------------------------------
+Clinet ID: 13 Request : 
+A 3 2
+Q 1 1
+A 1 3
+A 1 3
+Q 3 2
+F
+ Response : 
+0
+1
+response time  : 0MilliSec
+total = 3-------------------------------
+Clinet ID: 12 Request : 
+A 3 2
+Q 1 2
+D 2 2
+Q 3 1
+A 2 3
+F
+ Response : 
+2
+3
+response time  : 0MilliSec
+total = 15-------------------------------
+Clinet ID: 13 Request : 
+A 3 1
+A 3 1
+Q 2 2
+Q 1 3
+A 1 1
+F
+ Response : 
+0
+1
+response time  : 2MilliSec
+total = 5-------------------------------
+Clinet ID: 12 Request : 
+Q 3 3
+D 3 2
+D 2 3
+Q 3 1
+A 1 2
+F
+ Response : 
+0
+1
+response time  : 2MilliSec
+total = 17-------------------------------
+Clinet ID: 12 Request : 
+Q 2 2
+D 2 1
+Q 1 3
+D 2 1
+A 1 2
+F
+ Response : 
+0
+1
+response time  : 0MilliSec
+total = 0-------------------------------
+Clinet ID: 13 Request : 
+D 3 2
+Q 1 1
+D 2 2
+Q 3 2
+A 2 2
+F
+ Response : 
+0
+2
+response time  : 2MilliSec
+total = 2-------------------------------
+Clinet ID: 12 Request : 
+Q 3 1
+D 2 1
+D 3 3
+Q 3 3
+A 2 3
+F
+ Response : 
+1
+0
+response time  : 3MilliSec
+total = 3-------------------------------
+Clinet ID: 12 Request : 
+Q 2 3
+A 1 2
+D 3 3
+D 2 3
+Q 3 2
+F
+ Response : 
+1
+2
+response time  : 2MilliSec
+total = 5-------------------------------
+Clinet ID: 13 Request : 
+D 3 3
+Q 2 3
+Q 1 2
+D 2 2
+A 3 3
+F
+ Response : 
+3
+1
+response time  : 8MilliSec
+total = 10-------------------------------
+Clinet ID: 13 Request : 
+Q 2 2
+Q 3 3
+A 2 3
+D 2 2
+D 3 3
+F
+ Response : 
+0
+0
+response time  : 0MilliSec
+total = 10-------------------------------
+Clinet ID: 13 Request : 
+Q 3 3
+A 1 3
+Q 2 1
+A 2 1
+A 2 1
+F
+ Response : 
+0
+2
+response time  : 0MilliSec
+total = 0-------------------------------
+Clinet ID: 12 Request : 
+Q 2 1
+D 2 2
+Q 2 3
+D 2 2
+A 2 3
+F
+ Response : 
+1
+1
+response time  : 3MilliSec
+total = 3-------------------------------
+Clinet ID: 12 Request : 
+D 3 2
+D 3 2
+D 2 1
+Q 3 3
+Q 3 1
+F
+ Response : 
+0
+1
+response time  : 2MilliSec
+total = 5-------------------------------
+Clinet ID: 13 Request : 
+A 3 1
+Q 2 1
+A 2 2
+D 3 1
+Q 3 1
+F
+ Response : 
+2
+-1
+response time  : 2MilliSec
+total = 2-------------------------------
+Clinet ID: 12 Request : 
+Q 2 3
+A 2 3
+A 2 1
+A 2 3
+Q 2 2
+F
+ Response : 
+1
+0
+response time  : 3MilliSec
+total = 8-------------------------------
+Clinet ID: 13 Request : 
+Q 3 1
+D 1 1
+Q 1 2
+A 3 1
+A 2 2
+F
+ Response : 
+-1
+1
+response time  : 0MilliSec
+total = 2-------------------------------
+Clinet ID: 13 Request : 
+Q 1 4
+A 1 3
+A 3 1
+Q 3 4
+A 3 1
+F
+ Response : 
+2
+3
+response time  : 0MilliSec
+total = 0-------------------------------
+Clinet ID: 12 Request : 
+D 1 2
+A 2 3
+Q 1 4
+Q 3 1
+A 2 3
+F
+ Response : 
+-1
+1
+response time  : 2MilliSec
+total = 2-------------------------------
+Clinet ID: 12 Request : 
+D 3 3
+Q 2 4
+Q 2 3
+A 1 4
+D 1 4
+F
+ Response : 
+1
+1
+response time  : 1MilliSec
+total = 3-------------------------------
+Clinet ID: 12 Request : 
+Q 2 3
+D 4 4
+D 3 1
+Q 1 3
+A 2 2
+F
+ Response : 
+1
+1
+response time  : 2MilliSec
+total = 5-------------------------------
+Clinet ID: 13 Request : 
+Q 2 2
+A 1 2
+A 4 2
+A 3 4
+Q 3 1
+F
+ Response : 
+0
+2
+response time  : 0MilliSec
+total = 0-------------------------------
+Clinet ID: 13 Request : 
+D 1 2
+D 1 3
+Q 1 1
+D 4 3
+Q 2 1
+F
+ Response : 
+0
+1
+response time  : 0MilliSec
+total = 0-------------------------------
+Clinet ID: 12 Request : 
+Q 3 3
+Q 4 2
+D 3 2
+A 3 3
+D 3 1
+F
+ Response : 
+0
+1
+response time  : 0MilliSec
+total = 0-------------------------------
+Clinet ID: 13 Request : 
+A 3 3
+Q 3 3
+Q 4 3
+D 4 2
+A 4 3
+F
+ Response : 
+0
+2
+response time  : 3MilliSec
+total = 3-------------------------------
+Clinet ID: 13 Request : 
+A 2 4
+D 4 1
+Q 3 2
+Q 2 3
+A 1 1
+F
+ Response : 
+-1
+1
+response time  : 1MilliSec
+total = 4-------------------------------
+Clinet ID: 12 Request : 
+D 2 2
+A 1 2
+Q 3 2
+Q 3 1
+D 3 3
+F
+ Response : 
+-1
+-1
+response time  : 1MilliSec
+total = 1-------------------------------
+Clinet ID: 13 Request : 
+Q 3 2
+Q 2 4
+D 1 3
+D 1 4
+A 2 4
+F
+ Response : 
+-1
+1
+response time  : 2MilliSec
+total = 6-------------------------------
+Clinet ID: 12 Request : 
+Q 3 2
+A 2 1
+Q 2 2
+D 1 3
+D 3 1
+F
+ Response : 
+-1
+0
+response time  : 0MilliSec
+total = 1-------------------------------
+Clinet ID: 13 Request : 
+Q 3 1
+A 3 1
+D 4 4
+A 1 1
+Q 3 3
+F
+ Response : 
+1
+0
+response time  : 16MilliSec
+total = 16-------------------------------
+Clinet ID: 12 Request : 
+A 3 2
+A 3 2
+Q 1 4
+A 3 2
+Q 1 3
+F
+ Response : 
+2
+2
+response time  : 19MilliSec
+total = 19-------------------------------
+Clinet ID: 13 Request : 
+A 4 1
+D 1 2
+D 4 2
+Q 2 2
+Q 2 4
+F
+ Response : 
+0
+1
+response time  : 15MilliSec
+total = 31-------------------------------
+Clinet ID: 13 Request : 
+Q 3 3
+A 3 2
+D 1 1
+Q 4 4
+D 4 3
+F
+ Response : 
+0
+0
+response time  : 14MilliSec
+total = 45-------------------------------
+Clinet ID: 12 Request : 
+D 1 1
+A 4 2
+A 2 2
+Q 1 1
+Q 4 2
+F
+ Response : 
+0
+1
+response time  : 0MilliSec
+total = 19-------------------------------
+Clinet ID: 12 Request : 
+D 3 3
+Q 1 3
+A 1 4
+D 1 1
+Q 1 3
+F
+ Response : 
+-1
+3
+response time  : 0MilliSec
+total = 19-------------------------------
+Clinet ID: 12 Request : 
+D 3 2
+Q 3 4
+D 1 2
+Q 3 1
+D 4 4
+F
+ Response : 
+2
+1
+response time  : 16MilliSec
+total = 16-------------------------------
+Clinet ID: 13 Request : 
+Q 3 1
+Q 2 3
+A 1 4
+A 3 4
+D 3 2
+F
+ Response : 
+1
+1
+response time  : 4MilliSec
+total = 4-------------------------------
+Clinet ID: 12 Request : 
+D 3 3
+Q 1 2
+D 4 2
+D 4 2
+Q 3 1
+F
+ Response : 
+2
+1
+response time  : 4MilliSec
+total = 20-------------------------------
+Clinet ID: 12 Request : 
+Q 3 2
+Q 1 3
+A 4 2
+D 1 1
+A 4 3
+F
+ Response : 
+-1
+-1
+response time  : 3MilliSec
+total = 23-------------------------------
+Clinet ID: 13 Request : 
+D 3 3
+Q 3 1
+Q 3 3
+D 3 1
+A 4 1
+F
+ Response : 
+1
+0
+response time  : 3MilliSec
+total = 7-------------------------------
+Clinet ID: 13 Request : 
+A 1 1
+Q 4 2
+A 4 1
+Q 3 3
+D 1 3
+F
+ Response : 
+1
+0
+response time  : 4MilliSec
+total = 11-------------------------------
+Clinet ID: 12 Request : 
+A 4 3
+A 4 1
+Q 3 1
+D 2 2
+Q 3 3
+F
+ Response : 
+2
+0
+response time  : 0MilliSec
+total = 0-------------------------------
+Clinet ID: 13 Request : 
+Q 1 4
+A 1 1
+D 2 4
+A 2 4
+Q 1 3
+F
+ Response : 
+1
+2
+response time  : 16MilliSec
+total = 16-------------------------------
+Clinet ID: 13 Request : 
+D 3 1
+A 4 4
+D 1 4
+Q 4 2
+Q 3 1
+F
+ Response : 
+1
+2
+response time  : 4MilliSec
+total = 20-------------------------------
+Clinet ID: 12 Request : 
+A 4 2
+Q 3 1
+D 2 3
+Q 1 2
+A 1 3
+F
+ Response : 
+2
+-1
+response time  : 6MilliSec
+total = 6-------------------------------
+Clinet ID: 12 Request : 
+D 1 3
+Q 1 2
+Q 4 2
+A 4 3
+D 2 1
+F
+ Response : 
+-1
+1
+response time  : 4MilliSec
+total = 10-------------------------------
+Clinet ID: 13 Request : 
+Q 1 1
+Q 2 3
+D 1 4
+D 3 3
+A 1 3
+F
+ Response : 
+0
+2
+response time  : 6MilliSec
+total = 26-------------------------------
+Clinet ID: 12 Request : 
+Q 3 5
+D 4 1
+D 5 4
+Q 3 3
+A 5 4
+F
+ Response : 
+-1
+0
+response time  : 25MilliSec
+total = 25-------------------------------
+Clinet ID: 13 Request : 
+D 2 5
+Q 4 2
+D 1 3
+Q 1 1
+D 3 2
+F
+ Response : 
+-1
+0
+response time  : 25MilliSec
+total = 25-------------------------------
+Clinet ID: 13 Request : 
+D 1 2
+D 5 4
+Q 3 4
+D 2 1
+Q 5 4
+F
+ Response : 
+-1
+-1
+response time  : 14MilliSec
+total = 39-------------------------------
+Clinet ID: 12 Request : 
+Q 3 4
+A 4 3
+D 5 1
+Q 1 2
+A 2 2
+F
+ Response : 
+-1
+-1
+response time  : 9MilliSec
+total = 34-------------------------------
+Clinet ID: 13 Request : 
+D 5 1
+Q 4 3
+A 2 4
+D 4 4
+Q 4 2
+F
+ Response : 
+1
+-1
+response time  : 7MilliSec
+total = 46-------------------------------
+Clinet ID: 12 Request : 
+A 5 3
+Q 5 5
+A 3 2
+D 3 3
+Q 4 5
+F
+ Response : 
+0
+-1
+response time  : 5MilliSec
+total = 39-------------------------------
+Clinet ID: 12 Request : 
+D 1 5
+D 2 3
+Q 5 4
+D 2 5
+Q 3 4
+F
+ Response : 
+3
+2
+response time  : 0MilliSec
+total = 0-------------------------------
+Clinet ID: 13 Request : 
+A 1 2
+Q 1 1
+Q 2 4
+A 4 3
+A 1 4
+F
+ Response : 
+0
+1
+response time  : 5MilliSec
+total = 5-------------------------------
+Clinet ID: 13 Request : 
+Q 3 5
+D 1 2
+A 3 4
+Q 5 4
+D 2 2
+F
+ Response : 
+-1
+2
+response time  : 4MilliSec
+total = 9-------------------------------
+Clinet ID: 12 Request : 
+A 2 5
+Q 4 2
+Q 4 5
+D 4 5
+A 3 3
+F
+ Response : 
+2
+3
+response time  : 3MilliSec
+total = 3-------------------------------
+Clinet ID: 13 Request : 
+Q 4 1
+D 2 1
+D 1 5
+D 4 3
+Q 1 2
+F
+ Response : 
+2
+-1
+response time  : 3MilliSec
+total = 12-------------------------------
+Clinet ID: 12 Request : 
+Q 4 1
+D 4 5
+D 5 2
+Q 3 4
+D 1 2
+F
+ Response : 
+-1
+1
+response time  : 4MilliSec
+total = 7-------------------------------
+Clinet ID: 12 Request : 
+A 2 4
+Q 2 5
+D 1 3
+Q 4 2
+A 3 2
+F
+ Response : 
+1
+-1
+response time  : 0MilliSec
+total = 0-------------------------------
+Clinet ID: 13 Request : 
+Q 2 5
+Q 3 4
+D 4 4
+A 4 5
+A 3 3
+F
+ Response : 
+1
+1
+response time  : 4MilliSec
+total = 4-------------------------------
+Clinet ID: 12 Request : 
+A 1 4
+Q 1 1
+A 4 1
+Q 5 1
+A 3 3
+F
+ Response : 
+0
+2
+response time  : 5MilliSec
+total = 5-------------------------------
+Clinet ID: 12 Request : 
+A 2 4
+D 3 1
+Q 5 4
+Q 1 2
+A 2 1
+F
+ Response : 
+2
+4
+response time  : 5MilliSec
+total = 10-------------------------------
+Clinet ID: 13 Request : 
+D 4 1
+D 5 3
+Q 4 4
+A 1 2
+Q 1 2
+F
+ Response : 
+0
+1
+response time  : 3MilliSec
+total = 7-------------------------------
+Clinet ID: 13 Request : 
+D 1 4
+Q 2 5
+A 2 2
+Q 3 4
+A 4 5
+F
+ Response : 
+1
+1
+response time  : 3MilliSec
+total = 10-------------------------------
+Clinet ID: 12 Request : 
+A 4 4
+Q 1 3
+Q 5 5
+A 4 1
+A 1 3
+F
+ Response : 
+2
+0
+response time  : 32MilliSec
+total = 32-------------------------------
+Clinet ID: 13 Request : 
+A 1 5
+Q 3 2
+Q 2 4
+A 4 3
+A 3 2
+F
+ Response : 
+2
+1
+response time  : 38MilliSec
+total = 38-------------------------------
+Clinet ID: 12 Request : 
+A 3 2
+A 4 2
+Q 3 4
+Q 4 2
+A 4 3
+F
+ Response : 
+2
+1
+response time  : 19MilliSec
+total = 51-------------------------------
+Clinet ID: 13 Request : 
+A 3 3
+D 3 5
+A 3 3
+Q 2 2
+Q 3 2
+F
+ Response : 
+0
+1
+response time  : 10MilliSec
+total = 48-------------------------------
+Clinet ID: 13 Request : 
+Q 1 2
+A 5 4
+Q 2 4
+A 1 5
+A 2 3
+F
+ Response : 
+1
+1
+response time  : 7MilliSec
+total = 55-------------------------------
+Clinet ID: 12 Request : 
+A 2 3
+D 2 3
+A 3 3
+Q 4 1
+Q 3 4
+F
+ Response : 
+1
+2
+response time  : 5MilliSec
+total = 56-------------------------------
+Clinet ID: 15 Request : 
+D 3 5
+D 3 5
+Q 4 2
+A 5 3
+Q 3 4
+F
+ Response : 
+2
+1
+response time  : 15MilliSec
+total = 15-------------------------------
+Clinet ID: 16 Request : 
+Q 2 3
+D 5 4
+A 3 4
+Q 5 3
+A 5 3
+F
+ Response : 
+1
+1
+response time  : 31MilliSec
+total = 31-------------------------------
+Clinet ID: 15 Request : 
+Q 1 1
+D 5 2
+A 2 1
+A 4 2
+Q 3 2
+F
+ Response : 
+0
+2
+response time  : 8MilliSec
+total = 23-------------------------------
+Clinet ID: 15 Request : 
+A 1 5
+D 1 2
+Q 5 3
+Q 4 3
+A 1 4
+F
+ Response : 
+1
+2
+response time  : 3MilliSec
+total = 26-------------------------------
+Clinet ID: 16 Request : 
+Q 1 2
+A 3 4
+A 2 3
+Q 5 1
+D 3 1
+F
+ Response : 
+4
+2
+response time  : 10MilliSec
+total = 41-------------------------------
+Clinet ID: 16 Request : 
+D 4 2
+A 5 4
+D 5 3
+Q 4 1
+Q 4 2
+F
+ Response : 
+1
+-1
+response time  : 0MilliSec
+total = 41-------------------------------
+Clinet ID: 16 Request : 
+A 3 4
+D 2 2
+Q 2 4
+D 5 5
+Q 1 3
+F
+ Response : 
+1
+2
+response time  : 31MilliSec
+total = 31-------------------------------
+Clinet ID: 15 Request : 
+Q 5 4
+Q 4 5
+D 2 1
+A 3 3
+A 1 1
+F
+ Response : 
+-1
+-1
+response time  : 25MilliSec
+total = 25-------------------------------
+Clinet ID: 15 Request : 
+Q 3 3
+A 5 4
+A 5 2
+Q 2 5
+A 5 3
+F
+ Response : 
+0
+-1
+response time  : 15MilliSec
+total = 40-------------------------------
+Clinet ID: 16 Request : 
+Q 4 3
+Q 3 1
+A 1 2
+D 3 1
+A 4 1
+F
+ Response : 
+3
+1
+response time  : 11MilliSec
+total = 42-------------------------------
+Clinet ID: 15 Request : 
+Q 2 4
+A 1 1
+A 4 2
+Q 3 3
+D 1 1
+F
+ Response : 
+1
+0
+response time  : 9MilliSec
+total = 49-------------------------------
+Clinet ID: 16 Request : 
+A 2 1
+Q 2 2
+D 5 5
+A 2 1
+Q 1 4
+F
+ Response : 
+0
+2
+response time  : 7MilliSec
+total = 49-------------------------------
+Clinet ID: 18 Request : 
+D 1 3
+A 5 2
+Q 4 4
+A 3 2
+Q 1 3
+F
+ Response : 
+0
+2
+response time  : 31MilliSec
+total = 31-------------------------------
+Clinet ID: 17 Request : 
+Q 2 1
+Q 2 3
+A 2 3
+A 1 1
+A 2 5
+F
+ Response : 
+2
+1
+response time  : 27MilliSec
+total = 27-------------------------------
+Clinet ID: 18 Request : 
+Q 5 5
+D 1 2
+Q 2 1
+A 1 1
+D 1 5
+F
+ Response : 
+0
+2
+response time  : 14MilliSec
+total = 45-------------------------------
+Clinet ID: 17 Request : 
+A 3 2
+A 5 2
+D 2 2
+Q 2 1
+Q 5 4
+F
+ Response : 
+2
+2
+response time  : 6MilliSec
+total = 33-------------------------------
+Clinet ID: 18 Request : 
+D 5 2
+D 3 1
+Q 4 2
+A 3 4
+Q 4 3
+F
+ Response : 
+-1
+-1
+response time  : 7MilliSec
+total = 52-------------------------------
+Clinet ID: 17 Request : 
+A 2 2
+Q 3 4
+A 1 2
+Q 5 2
+D 5 5
+F
+ Response : 
+1
+-1
+response time  : 5MilliSec
+total = 38-------------------------------
+Clinet ID: 17 Request : 
+Q 1 4
+A 1 2
+A 3 2
+Q 5 1
+D 4 4
+F
+ Response : 
+2
+-1
+response time  : 15MilliSec
+total = 15-------------------------------
+Clinet ID: 18 Request : 
+Q 2 2
+A 5 4
+A 1 4
+D 5 5
+Q 4 4
+F
+ Response : 
+0
+0
+response time  : 33MilliSec
+total = 33-------------------------------
+Clinet ID: 18 Request : 
+Q 2 5
+A 1 5
+Q 3 1
+A 4 5
+A 4 3
+F
+ Response : 
+-1
+1
+response time  : 20MilliSec
+total = 53-------------------------------
+Clinet ID: 17 Request : 
+A 3 5
+A 2 1
+Q 2 1
+Q 4 5
+A 2 3
+F
+ Response : 
+1
+1
+response time  : 15MilliSec
+total = 30-------------------------------
+Clinet ID: 18 Request : 
+Q 5 5
+A 5 5
+D 4 1
+Q 3 4
+A 1 2
+F
+ Response : 
+0
+2
+response time  : 10MilliSec
+total = 63-------------------------------
+Clinet ID: 17 Request : 
+D 1 5
+Q 1 4
+Q 3 1
+A 4 3
+A 5 2
+F
+ Response : 
+1
+1
+response time  : 0MilliSec
+total = 30-------------------------------
+Clinet ID: 17 Request : 
+A 3 1
+D 5 3
+Q 1 5
+Q 2 4
+A 3 4
+F
+ Response : 
+-1
+1
+response time  : 32MilliSec
+total = 32-------------------------------
+Clinet ID: 18 Request : 
+D 5 3
+A 5 5
+Q 2 1
+A 2 4
+Q 1 5
+F
+ Response : 
+2
+-1
+response time  : 40MilliSec
+total = 40-------------------------------
+Clinet ID: 17 Request : 
+Q 5 1
+Q 2 1
+D 3 2
+A 2 2
+A 4 2
+F
+ Response : 
+-1
+2
+response time  : 12MilliSec
+total = 44-------------------------------
+Clinet ID: 17 Request : 
+Q 2 5
+A 5 1
+A 5 5
+Q 3 4
+D 2 5
+F
+ Response : 
+-1
+1
+response time  : 8MilliSec
+total = 52-------------------------------
+Clinet ID: 18 Request : 
+Q 1 1
+A 5 3
+D 1 4
+Q 4 2
+D 4 3
+F
+ Response : 
+0
+1
+response time  : 11MilliSec
+total = 51-------------------------------
+Clinet ID: 18 Request : 
+D 2 5
+Q 2 2
+Q 5 3
+A 5 5
+A 4 3
+F
+ Response : 
+0
+1
+response time  : 6MilliSec
+total = 57-------------------------------
+Clinet ID: 18 Request : 
+A 4 2
+Q 2 2
+A 1 2
+Q 4 5
+A 5 4
+F
+ Response : 
+0
+-1
+response time  : 16MilliSec
+total = 16-------------------------------
+Clinet ID: 17 Request : 
+A 3 1
+Q 3 5
+Q 5 1
+A 2 3
+A 4 3
+F
+ Response : 
+-1
+2
+response time  : 23MilliSec
+total = 23-------------------------------
+Clinet ID: 17 Request : 
+A 5 4
+Q 5 4
+A 1 3
+Q 2 2
+A 4 5
+F
+ Response : 
+1
+0
+response time  : 5MilliSec
+total = 28-------------------------------
+Clinet ID: 18 Request : 
+Q 5 2
+Q 3 3
+A 1 4
+A 2 3
+A 3 2
+F
+ Response : 
+2
+0
+response time  : 4MilliSec
+total = 20-------------------------------
+Clinet ID: 18 Request : 
+A 1 3
+A 5 4
+Q 4 3
+Q 1 2
+D 2 2
+F
+ Response : 
+1
+1
+response time  : 3MilliSec
+total = 23-------------------------------
+Clinet ID: 17 Request : 
+A 4 5
+Q 2 3
+D 5 2
+Q 5 5
+A 4 3
+F
+ Response : 
+1
+0
+response time  : 3MilliSec
+total = 31-------------------------------
