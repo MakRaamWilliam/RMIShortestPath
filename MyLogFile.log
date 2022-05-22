@@ -1,100 +1,100 @@
-May 22, 2022 2:48:53 AM rmi.server.AppLogger logInfo
+May 22, 2022 3:06:02 AM rmi.server.AppLogger logInfo
 INFO: Start initializing the local graph.
-May 22, 2022 2:48:53 AM rmi.server.AppLogger logInfo
+May 22, 2022 3:06:02 AM rmi.server.AppLogger logInfo
 INFO: Add new edge to the graph: 1 2
-May 22, 2022 2:48:53 AM rmi.server.AppLogger logInfo
+May 22, 2022 3:06:02 AM rmi.server.AppLogger logInfo
 INFO: Add new edge to the graph: 2 3
-May 22, 2022 2:48:53 AM rmi.server.AppLogger logInfo
+May 22, 2022 3:06:02 AM rmi.server.AppLogger logInfo
 INFO: Add new edge to the graph: 3 1
-May 22, 2022 2:48:53 AM rmi.server.AppLogger logInfo
+May 22, 2022 3:06:02 AM rmi.server.AppLogger logInfo
 INFO: Add new edge to the graph: 4 1
-May 22, 2022 2:48:53 AM rmi.server.AppLogger logInfo
+May 22, 2022 3:06:02 AM rmi.server.AppLogger logInfo
 INFO: Add new edge to the graph: 2 4
-May 22, 2022 2:48:53 AM rmi.server.AppLogger logInfo
+May 22, 2022 3:06:02 AM rmi.server.AppLogger logInfo
 INFO: Initial graph is initialized successfully.
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
 INFO: Server register graph service into RMI registery
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
 INFO: New batch request
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
-INFO: Query: shortest path distance between: 1 and 1 is 0
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
+INFO: Add new edge to the graph: 1 1
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
 INFO: New batch request
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
-INFO: Remove edge from the graph: 1 1
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
+INFO: Query: shortest path distance between: 1 and 1 is 0
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
 INFO: Add new edge to the graph: 1 1
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
-INFO: Query: shortest path distance between: 1 and 1 is 0
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
-INFO: Query: shortest path distance between: 1 and 1 is 0
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
-INFO: Query: shortest path distance between: 1 and 1 is 0
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
 INFO: Add new edge to the graph: 1 1
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
-INFO: Remove edge from the graph: 1 1
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
-INFO: Remove edge from the graph: 1 1
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
+INFO: Add new edge to the graph: 1 1
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
+INFO: Query: shortest path distance between: 1 and 1 is 0
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
+INFO: Query: shortest path distance between: 1 and 1 is 0
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
 INFO: End batch request
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
 INFO: Add new edge to the graph: 1 1
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
+INFO: Query: shortest path distance between: 1 and 1 is 0
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
+INFO: Remove edge from the graph: 1 1
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
 INFO: End batch request
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
 INFO: New batch request
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
-INFO: Remove edge from the graph: 1 1
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
-INFO: Remove edge from the graph: 1 1
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
 INFO: Query: shortest path distance between: 1 and 1 is 0
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
-INFO: Query: shortest path distance between: 1 and 1 is 0
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
-INFO: Remove edge from the graph: 1 1
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
-INFO: End batch request
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
-INFO: New batch request
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
-INFO: Query: shortest path distance between: 1 and 1 is 0
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
 INFO: Add new edge to the graph: 1 1
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
-INFO: Remove edge from the graph: 1 1
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
-INFO: Query: shortest path distance between: 1 and 1 is 0
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
-INFO: Remove edge from the graph: 1 1
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
-INFO: End batch request
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
-INFO: New batch request
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
-INFO: Query: shortest path distance between: 1 and 1 is 0
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
-INFO: Query: shortest path distance between: 1 and 1 is 0
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
 INFO: Add new edge to the graph: 1 1
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
-INFO: Remove edge from the graph: 1 1
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
-INFO: Remove edge from the graph: 1 1
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
-INFO: End batch request
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
-INFO: New batch request
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
-INFO: Remove edge from the graph: 1 1
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
+INFO: Query: shortest path distance between: 1 and 1 is 0
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
 INFO: Add new edge to the graph: 1 1
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
+INFO: End batch request
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
+INFO: New batch request
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
 INFO: Query: shortest path distance between: 1 and 1 is 0
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
+INFO: Add new edge to the graph: 1 1
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
 INFO: Query: shortest path distance between: 1 and 1 is 0
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
+INFO: Add new edge to the graph: 1 1
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
+INFO: Add new edge to the graph: 1 1
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
+INFO: End batch request
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
+INFO: New batch request
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
+INFO: Query: shortest path distance between: 1 and 1 is 0
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
+INFO: Add new edge to the graph: 1 1
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
+INFO: Query: shortest path distance between: 1 and 1 is 0
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
 INFO: Remove edge from the graph: 1 1
-May 22, 2022 2:48:54 AM rmi.server.AppLogger logInfo
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
+INFO: Add new edge to the graph: 1 1
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
+INFO: End batch request
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
+INFO: New batch request
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
+INFO: Add new edge to the graph: 1 1
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
+INFO: Query: shortest path distance between: 1 and 1 is 0
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
+INFO: Query: shortest path distance between: 1 and 1 is 0
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
+INFO: Add new edge to the graph: 1 1
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
+INFO: Add new edge to the graph: 1 1
+May 22, 2022 3:06:03 AM rmi.server.AppLogger logInfo
 INFO: End batch request

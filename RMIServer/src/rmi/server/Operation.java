@@ -14,10 +14,10 @@ public class Operation {
 		this.node2 = node2;
 		this.graph = graph;
 	}
-	public void perform() {
+	public void perform(char algotype) {
 		long startTime = System.nanoTime();
 		if (this.type == 'Q' || this.type == 'q') {
-			this.result = this.graph.getShortestPath(node1, node2);
+			this.result = this.graph.getShortestPath(node1, node2,algotype);
 		} else if (this.type == 'A' || this.type == 'a') {
 			this.graph.addEdge(node1, node2);
 		} else if (this.type == 'D' || this.type == 'd') {

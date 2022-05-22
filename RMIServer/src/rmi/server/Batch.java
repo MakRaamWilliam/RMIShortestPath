@@ -14,11 +14,11 @@ public class Batch {
 		operations.add(operation);
 	}
 
-	public String performAllOperations() {
+	public String performAllOperations(char algotype) {
 		long startTime = System.nanoTime();
 		String queryResults = "";
 		for (Operation operation : this.operations) {
-			operation.perform();
+			operation.perform(algotype);
 			if (operation.getType() == 'Q' || operation.getType() == 'q') {
 				queryResults += (operation.getQueryResult() + "\n");
 			}

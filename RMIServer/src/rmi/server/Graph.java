@@ -55,10 +55,14 @@ public class Graph {
 		readWriteLock.writeLock().unlock();
 	}
 
-	public int getShortestPath(int node1, int node2) {
+	public int getShortestPath(int node1, int node2,char algotype) {
 		readWriteLock.readLock().lock();
 		int distance = -1;
-		distance = BFSShortestPath(node1, node2);
+		if (algotype == 'D') {
+			distance = dijkstraShortestPath(node1, node2);
+		} else {
+			distance = BFSShortestPath(node1, node2);
+		}
 		if (distance == -1) {
 			logger.logInfo("Query: There is no path between " + node1 + " and " + node2);
 		} else {
@@ -109,6 +113,49 @@ public class Graph {
 		}
 		return -1;
 	}
+	private int dijkstraShortestPath(int node1, int node2) {
+		if (graphEdges.get(node1) == null || graphEdges.get(node2) == null)
+			return -1;
+		HashMap<Integer, Integer> distances = new HashMap<>();
+		Set<Integer> keys = graphEdges.keySet();
+		Iterator<Integer> i = keys.iterator();
+		while (i.hasNext()) {
+			int n = i.next();
+			if (n == node1)
+				distances.put(n, 0);
+			else
+				distances.put(n, Integer.MAX_VALUE);
+		}
+		Comparator<int[]> nodeDistanceComparator = (n1, n2) -> {
+			if (n1[1] < n2[1])
+				return -1;
+			if (n1[1] > n2[1])
+				return 1;
+			return 0;
+		};
+		Set<Integer> settled = new HashSet<Integer>();
+		PriorityQueue<int[]> pq = new PriorityQueue<>(nodeDistanceComparator);
+		pq.add(new int[] { node1, 0 });
+		while (!pq.isEmpty()) {
+			int[] peek = pq.poll();
+			int u = peek[0];
+			settled.add(u);
+			HashSet<Integer> neighbors = graphEdges.get(u);
+			for (int n : neighbors) {
+				if (!settled.contains(n)) {
+					int newDistance = distances.get(u) + 1;
+
+					if (newDistance < distances.get(n))
+						distances.put(n, newDistance);
+					// Add the current node to the queue
+					pq.add(new int[] { n, distances.get(n) });
+				}
+			}
+		}
+		int requiredDist = distances.get(node2);
+		return requiredDist == Integer.MAX_VALUE ? -1 : requiredDist;
+	}
+
 
 	private void initializeGraph(String graphFilePath) {
 		logger.logInfo("Start initializing the local graph.");

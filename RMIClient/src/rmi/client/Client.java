@@ -35,7 +35,7 @@ public class Client extends Thread {
 				for(Batch batch : batches) {
 					long startTime = System.currentTimeMillis();
 //                    lock.lock();
-					String response = graphService.excuteBatchOperations(batch.getOperations());
+					String response = graphService.excuteBatchOperations(batch.getOperations(),'D');
 					String currGraph = graphService.getCurrentGraph();
 					System.out.println(Thread.currentThread().getId() + " Graph:\n"+currGraph);
 					long endTime = System.currentTimeMillis();

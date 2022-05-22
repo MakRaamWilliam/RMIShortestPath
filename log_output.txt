@@ -1,144 +1,72 @@
 Clinet ID: 17 Request : 
 A 1 1
+Q 1 1
+A 1 1
 A 1 1
 Q 1 1
-Q 1 1
-D 1 1
 F
  Response : 
 0
 0
-response time  : 32MilliSec
-total = 32-------------------------------
+response time  : 31MilliSec
+total = 31-------------------------------
 Clinet ID: 18 Request : 
 A 1 1
-D 1 1
-Q 1 1
 Q 1 1
 A 1 1
+Q 1 1
+D 1 1
 F
  Response : 
 0
 0
-response time  : 25MilliSec
-total = 25-------------------------------
+response time  : 28MilliSec
+total = 28-------------------------------
 Clinet ID: 17 Request : 
 Q 1 1
-D 1 1
-D 1 1
 A 1 1
-Q 1 1
-F
- Response : 
-0
-0
-response time  : 11MilliSec
-total = 43-------------------------------
-Clinet ID: 18 Request : 
 A 1 1
-Q 1 1
-Q 1 1
-D 1 1
-A 1 1
-F
- Response : 
-0
-0
-response time  : 12MilliSec
-total = 37-------------------------------
-Clinet ID: 17 Request : 
-D 1 1
-A 1 1
-Q 1 1
 Q 1 1
 A 1 1
 F
  Response : 
 0
 0
-response time  : 15MilliSec
-total = 58-------------------------------
-Clinet ID: 18 Request : 
-D 1 1
-D 1 1
-A 1 1
-Q 1 1
-Q 1 1
-F
- Response : 
-0
-0
-response time  : 4MilliSec
-total = 41-------------------------------
+response time  : 14MilliSec
+total = 45-------------------------------
 Clinet ID: 18 Request : 
 Q 1 1
+A 1 1
 Q 1 1
 A 1 1
-D 1 1
-D 1 1
+A 1 1
 F
  Response : 
 0
 0
 response time  : 8MilliSec
-total = 8-------------------------------
+total = 36-------------------------------
 Clinet ID: 17 Request : 
 Q 1 1
-D 1 1
 A 1 1
 Q 1 1
+D 1 1
 A 1 1
 F
  Response : 
 0
 0
-response time  : 12MilliSec
-total = 12-------------------------------
-Clinet ID: 17 Request : 
-D 1 1
-D 1 1
-Q 1 1
-Q 1 1
-D 1 1
-F
- Response : 
-0
-0
-response time  : 9MilliSec
-total = 21-------------------------------
+response time  : 7MilliSec
+total = 52-------------------------------
 Clinet ID: 18 Request : 
+A 1 1
+Q 1 1
 Q 1 1
 A 1 1
-D 1 1
-Q 1 1
-D 1 1
+A 1 1
 F
  Response : 
 0
 0
-response time  : 3MilliSec
-total = 11-------------------------------
-Clinet ID: 17 Request : 
-Q 1 1
-Q 1 1
-A 1 1
-D 1 1
-D 1 1
-F
- Response : 
-0
-0
-response time  : 3MilliSec
-total = 24-------------------------------
-Clinet ID: 18 Request : 
-D 1 1
-A 1 1
-Q 1 1
-Q 1 1
-D 1 1
-F
- Response : 
-0
-0
-response time  : 4MilliSec
-total = 15-------------------------------
+response time  : 6MilliSec
+total = 42-------------------------------

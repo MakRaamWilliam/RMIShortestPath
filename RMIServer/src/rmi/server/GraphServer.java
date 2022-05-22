@@ -29,10 +29,10 @@ public class GraphServer  implements GraphService {
 	}
 
 	@Override
-	public String excuteBatchOperations(String batch) throws RemoteException {
+	public String excuteBatchOperations(String batch,char algotype) throws RemoteException {
 		logger.logInfo("New batch request");
 		Batch newRequest = parseBatchRequest(batch);
-		String results = newRequest.performAllOperations();
+		String results = newRequest.performAllOperations(algotype);
 		requests.add(newRequest);
 		logger.logInfo("End batch request");
 		return results;
