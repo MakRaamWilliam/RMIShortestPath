@@ -5,22 +5,27 @@ import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
 import java.util.ArrayList;
+import java.util.concurrent.locks.ReadWriteLock;
+import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 //import rmi.registery.GraphService;
 
 import registery.GraphService;
 import rmi.client.Client;
 
+
 public class GraphServer  implements GraphService {
 
 	private Graph localGraph;
 	private static AppLogger logger = new AppLogger();
 	private ArrayList<Batch> requests;
+	private static ReadWriteLock readWriteLock;
 
 	public GraphServer() {
 		super();
 		localGraph = new Graph("C:\\Users\\makrm\\IdeaProjects\\BigData proj\\RMIShortestPath\\RMIServer\\local_graph.txt");
 		requests = new ArrayList<>();
+		readWriteLock = new ReentrantReadWriteLock();
 	}
 
 	@Override
@@ -61,11 +66,19 @@ public class GraphServer  implements GraphService {
 			registry.rebind(name, stub);
 			logger.logInfo("Server register graph service into RMI registery");
 
+            readWriteLock.writeLock().lock();
 			Client clientThread = new Client();
 			clientThread.start();
+			readWriteLock.writeLock().unlock();
+			readWriteLock.writeLock().lock();
 			Client clientThread2 = new Client();
 			clientThread2.start();
+//			Client clientThread3 = new Client();
+//			clientThread3.start();
+//			Client clientThread4= new Client();
+//			clientThread4.start();
 
+			readWriteLock.writeLock().unlock();
 
 		} catch (Exception e) {
 			logger.logInfo("GraphServer exception while registering graph service into RMI registery");

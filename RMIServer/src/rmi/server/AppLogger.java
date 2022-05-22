@@ -7,27 +7,24 @@ import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
 public class AppLogger {
-	private FileHandler fh;
+	private FileHandler fileHandler;
 	private final static Logger LOGGER = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
 
 	public AppLogger() {
-		configureLogger();
+		configure();
 	}
 
 	public void logInfo(String message) {
 		LOGGER.log(Level.INFO, message);
 	}
 
-	private void configureLogger() {
+	private void configure() {
 		try {
-			// This block configure the logger with handler and formatter
-			fh = new FileHandler("MyLogFile.log");
-			LOGGER.addHandler(fh);
+			fileHandler = new FileHandler("MyLogFile.log");
+			LOGGER.addHandler(fileHandler);
 			SimpleFormatter formatter = new SimpleFormatter();
-			fh.setFormatter(formatter);
-		} catch (SecurityException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
+			fileHandler.setFormatter(formatter);
+		} catch (SecurityException | IOException e) {
 			e.printStackTrace();
 		}
 	}

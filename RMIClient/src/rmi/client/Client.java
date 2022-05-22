@@ -13,25 +13,31 @@ import java.util.ArrayList;
 import java.util.Random;
 //import rmi.registery.GraphService;
 
+import java.util.concurrent.Executors;
+import java.util.concurrent.locks.ReentrantLock;
 
-import java.util.concurrent.locks.ReadWriteLock;
-import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 public class Client extends Thread {
-	ReadWriteLock readWriteLock = new ReentrantReadWriteLock();
 	long totresp = 0;
+	ReentrantLock lock = new ReentrantLock();
+
+//	public Client(){
+//		ReentrantLock lock = new ReentrantLock();
+//	}
+
 	public void run() {
 			try {
 				System.err.println("ClientID: "+ Thread.currentThread().getId());
 				GraphService graphService = this.getGraphService();
 				ArrayList<Batch> batches = this.generateRequestsBatch();
 				Random randomGenerator = new Random();
-				readWriteLock.writeLock().lock();
-				readWriteLock.readLock().lock();
 
 				for(Batch batch : batches) {
 					long startTime = System.currentTimeMillis();
+//                    lock.lock();
 					String response = graphService.excuteBatchOperations(batch.getOperations());
+					String currGraph = graphService.getCurrentGraph();
+					System.out.println(Thread.currentThread().getId() + " Graph:\n"+currGraph);
 					long endTime = System.currentTimeMillis();
 					long responseTime = endTime-startTime;
 					batch.setReponse(response);
@@ -39,6 +45,8 @@ public class Client extends Thread {
 					this.logInformation(batch);
 					int sleepTime = randomGenerator.nextInt(100);
 					Thread.sleep(sleepTime);
+//					lock.unlock();
+
 				}
 
 			} catch (NotBoundException | InterruptedException | IOException e) {
@@ -60,7 +68,7 @@ public class Client extends Thread {
 
 		double writePercentage = 0.6;
 
-		BatchGenerator batchGenerator = new BatchGenerator(writePercentage, 5 , 5);
+		BatchGenerator batchGenerator = new BatchGenerator(writePercentage, 5 , 1);
 		int numOfRequests = 3 ; // randomGenerator.nextInt(10)+1;
 		for(int i=0;i<numOfRequests;i++) {
 			Batch batch = batchGenerator.getReqeust();
@@ -85,7 +93,7 @@ public class Client extends Thread {
 		logFileWriter.write("response time  : " + batch.getResponseTime() + "MilliSec\n");
 		totresp += batch.getResponseTime();
 		logFileWriter.write("total = "+totresp);
-//		System.out.println("Client ID: "+Thread.currentThread().getId()+ " res= "+ request.getResponseTime());
+		System.out.println("Client ID: "+Thread.currentThread().getId()+ " res= "+ batch.getResponseTime());
 
 //		System.out.println("Client ID: "+Thread.currentThread().getId()+ " tot= "+ totresp );
 		logFileWriter.write("-------------------------------\n");
