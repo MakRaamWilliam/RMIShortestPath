@@ -6,7 +6,6 @@ public class Operation {
 	private int node2;
 	private Graph graph;
 	private int result;
-	private long takenTime;
 
 	public Operation(char type, int node1, int node2, Graph graph) {
 		this.type = type;
@@ -23,9 +22,8 @@ public class Operation {
 		} else if (this.type == 'D' || this.type == 'd') {
 			this.graph.removeEdge(node1, node2);
 		} else {
-			System.out.println("Not supported operation");
+			System.err.println("Error in Operation type");
 		}
-		this.takenTime = System.nanoTime() - startTime;
 	}
 
 	public int getQueryResult() {

@@ -25,7 +25,7 @@ public class Graph {
 	public Graph(String graphFilePath) {
 		graphEdges = new HashMap<Integer, HashSet<Integer>>();
 		readWriteLock = new ReentrantReadWriteLock();
-		initializeGraph(graphFilePath);
+		CreateGraph(graphFilePath);
 	}
 
 	public void addEdge(int node1, int node2) {
@@ -41,7 +41,7 @@ public class Graph {
 			HashSet<Integer> neighbors = new HashSet<>();
 			graphEdges.put(node2, neighbors);
 		}
-		logger.logInfo("Add new edge to the graph: " + node1 + " " + node2);
+		logger.logInfo("Add edge between: " + node1 + " " + node2);
 		readWriteLock.writeLock().unlock();
 	}
 
@@ -51,7 +51,7 @@ public class Graph {
 		if (node1Neighbors != null) {
 			node1Neighbors.remove(node2);
 		}
-		logger.logInfo("Remove edge from the graph: " + node1 + " " + node2);
+		logger.logInfo("Delete edge between: " + node1 + " " + node2);
 		readWriteLock.writeLock().unlock();
 	}
 
@@ -59,20 +59,20 @@ public class Graph {
 		readWriteLock.readLock().lock();
 		int distance = -1;
 		if (algotype == 'D') {
-			distance = dijkstraShortestPath(node1, node2);
+			distance = DijkstraShortestPath(node1, node2);
 		} else {
 			distance = BFSShortestPath(node1, node2);
 		}
 		if (distance == -1) {
-			logger.logInfo("Query: There is no path between " + node1 + " and " + node2);
+			logger.logInfo("There is no path between" + node1 + node2);
 		} else {
-			logger.logInfo("Query: shortest path distance between: " + node1 + " and " + node2 + " is " + distance);
+			logger.logInfo("Shortest path between: " + node1 + " " + node2 + "= " + distance);
 		}
 		readWriteLock.readLock().unlock();
 		return distance;
 	}
 
-	public String serializeGraph() {
+	public String GetGraphEdges() {
 		readWriteLock.readLock().lock();
 		String edges = "";
 		Iterator<Entry<Integer, HashSet<Integer>>> hmIterator = graphEdges.entrySet().iterator();
@@ -113,7 +113,7 @@ public class Graph {
 		}
 		return -1;
 	}
-	private int dijkstraShortestPath(int node1, int node2) {
+	private int DijkstraShortestPath(int node1, int node2) {
 		if (graphEdges.get(node1) == null || graphEdges.get(node2) == null)
 			return -1;
 		HashMap<Integer, Integer> distances = new HashMap<>();
@@ -157,19 +157,20 @@ public class Graph {
 	}
 
 
-	private void initializeGraph(String graphFilePath) {
-		logger.logInfo("Start initializing the local graph.");
-		ArrayList<String> edgesLines = parseEdgesFromFile(graphFilePath);
+	private void CreateGraph(String graphFilePath) {
+		logger.logInfo("Reading Graph from graph");
+		ArrayList<String> edgesLines = ReadEdges(graphFilePath);
 		for (int i = 0; i < edgesLines.size(); i++) {
 			String[] nodes = edgesLines.get(i).split(" ", 2);
 			int node1 = Integer.parseInt(nodes[0]);
 			int node2 = Integer.parseInt(nodes[1]);
 			addEdge(node1, node2);
 		}
-		logger.logInfo("Initial graph is initialized successfully.");
+		logger.logInfo("Finished Read Graph from file");
+		logger.logInfo("Graph edges:\n"+ this.GetGraphEdges());
 	}
 
-	private ArrayList<String> parseEdgesFromFile(String graphFilePath) {
+	private ArrayList<String> ReadEdges(String graphFilePath) {
 		ArrayList<String> edges = new ArrayList<>();
 		try {
 			File myObj = new File(graphFilePath);
@@ -182,7 +183,7 @@ public class Graph {
 			}
 			myReader.close();
 		} catch (FileNotFoundException e) {
-			System.out.println("An error occurred.");
+			System.err.println("There is Error happened in Parsing");
 			e.printStackTrace();
 		}
 		return edges;

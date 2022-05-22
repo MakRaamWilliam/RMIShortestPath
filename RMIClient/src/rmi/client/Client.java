@@ -35,7 +35,7 @@ public class Client extends Thread {
 				for(Batch batch : batches) {
 					long startTime = System.currentTimeMillis();
 //                    lock.lock();
-					String response = graphService.excuteBatchOperations(batch.getOperations(),'D');
+					String response = graphService.excuteBatchOperations(batch.getOperations(),'B');
 					String currGraph = graphService.getCurrentGraph();
 					System.out.println(Thread.currentThread().getId() + " Graph:\n"+currGraph);
 					long endTime = System.currentTimeMillis();
@@ -68,7 +68,7 @@ public class Client extends Thread {
 
 		double writePercentage = 0.6;
 
-		BatchGenerator batchGenerator = new BatchGenerator(writePercentage, 5 , 1);
+		BatchGenerator batchGenerator = new BatchGenerator(writePercentage, 5 , 5);
 		int numOfRequests = 3 ; // randomGenerator.nextInt(10)+1;
 		for(int i=0;i<numOfRequests;i++) {
 			Batch batch = batchGenerator.getReqeust();
@@ -80,24 +80,26 @@ public class Client extends Thread {
 	}
 	
 	private void logInformation(Batch batch) throws IOException {
-		File logFile = new File("log_output.txt");
-		if(!logFile.exists()) {
-			logFile.createNewFile();
+
+		File file = new File("Client " +Thread.currentThread().getId()+".txt");
+		if(!file.exists()) {
+			file.createNewFile();
 		}
-		FileWriter logFileWriter = new FileWriter(logFile , true);
-		logFileWriter.write("Clinet ID: "+Thread.currentThread().getId()+" ");
-		logFileWriter.write("Request : \n");
-		logFileWriter.write(batch.getOperations());
-		logFileWriter.write("\n Response : \n");
-		logFileWriter.write(batch.getReponse());
-		logFileWriter.write("response time  : " + batch.getResponseTime() + "MilliSec\n");
+		FileWriter fileWriter = new FileWriter(file , true);
+		fileWriter.write("Request from Client : "+Thread.currentThread().getId()+"\n");
+//		fileWriter.write("Request : \n");
+		fileWriter.write(batch.getOperations());
+		fileWriter.write("\nQueries outputs: \n");
+		fileWriter.write(batch.getReponse());
+		fileWriter.write("Batch Response Time: " + batch.getResponseTime() + " MilliSec\n");
 		totresp += batch.getResponseTime();
-		logFileWriter.write("total = "+totresp);
-		System.out.println("Client ID: "+Thread.currentThread().getId()+ " res= "+ batch.getResponseTime());
+
+//		fileWriter.write("total = "+totresp/3.0);
+//		System.out.println("Client ID: "+Thread.currentThread().getId()+ " res= "+ batch.getResponseTime());
 
 //		System.out.println("Client ID: "+Thread.currentThread().getId()+ " tot= "+ totresp );
-		logFileWriter.write("-------------------------------\n");
-		logFileWriter.close();
+		fileWriter.write("\n-------------------------------\n");
+		fileWriter.close();
 	}
 
 }

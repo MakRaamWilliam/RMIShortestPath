@@ -5,8 +5,6 @@ import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
 import java.util.ArrayList;
-import java.util.concurrent.locks.ReadWriteLock;
-import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 //import rmi.registery.GraphService;
 
@@ -16,16 +14,14 @@ import rmi.client.Client;
 
 public class GraphServer  implements GraphService {
 
-	private Graph localGraph;
+	private Graph graph;
 	private static AppLogger logger = new AppLogger();
 	private ArrayList<Batch> requests;
-	private static ReadWriteLock readWriteLock;
 
 	public GraphServer() {
 		super();
-		localGraph = new Graph("C:\\Users\\makrm\\IdeaProjects\\BigData proj\\RMIShortestPath\\RMIServer\\local_graph.txt");
+		graph = new Graph("C:\\Users\\makrm\\IdeaProjects\\BigData proj\\RMIShortestPath\\RMIServer\\local_graph.txt");
 		requests = new ArrayList<>();
-		readWriteLock = new ReentrantReadWriteLock();
 	}
 
 	@Override
@@ -40,7 +36,7 @@ public class GraphServer  implements GraphService {
 
 	@Override
 	public String getCurrentGraph() throws RemoteException {
-		return localGraph.serializeGraph();
+		return graph.GetGraphEdges();
 	}
 
 	private Batch parseBatchRequest(String batch) {
@@ -51,7 +47,7 @@ public class GraphServer  implements GraphService {
 				break;
 			String[] parts = operation.split(" ", 3);
 			newRequest.addOperation(new Operation(parts[0].charAt(0), Integer.parseInt(parts[1]),
-					Integer.parseInt(parts[2]), localGraph));
+					Integer.parseInt(parts[2]), graph));
 		}
 		return newRequest;
 	}
@@ -64,13 +60,11 @@ public class GraphServer  implements GraphService {
 			GraphService stub = (GraphService) UnicastRemoteObject.exportObject(server, 0);
 			Registry registry = LocateRegistry.createRegistry(1100); // run on local host and on post 1099
 			registry.rebind(name, stub);
-			logger.logInfo("Server register graph service into RMI registery");
+			logger.logInfo("rebind RMI registry with Graph server on port 1100");
 
-            readWriteLock.writeLock().lock();
 			Client clientThread = new Client();
 			clientThread.start();
-			readWriteLock.writeLock().unlock();
-			readWriteLock.writeLock().lock();
+
 			Client clientThread2 = new Client();
 			clientThread2.start();
 //			Client clientThread3 = new Client();
@@ -78,10 +72,8 @@ public class GraphServer  implements GraphService {
 //			Client clientThread4= new Client();
 //			clientThread4.start();
 
-			readWriteLock.writeLock().unlock();
 
 		} catch (Exception e) {
-			logger.logInfo("GraphServer exception while registering graph service into RMI registery");
 			e.printStackTrace();
 		}
 	}

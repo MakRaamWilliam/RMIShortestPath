@@ -20,7 +20,7 @@ public class AppLogger {
 
 	private void configure() {
 		try {
-			fileHandler = new FileHandler("MyLogFile.log");
+			fileHandler = new FileHandler("Log.log");
 			LOGGER.addHandler(fileHandler);
 			SimpleFormatter formatter = new SimpleFormatter();
 			fileHandler.setFormatter(formatter);
